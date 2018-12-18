@@ -1,0 +1,21 @@
+/* .card:nth-of-type(odd) {
+  background-color: #EEEEEE;
+} */
+
+.card {
+  /* background-color: #DDDDDD; */
+  background-color: white;
+  font-size: 15px;
+  margin: 3px 5px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: #dddddd;
+}
+
+.addCard {
+  cursor: pointer;
+}
