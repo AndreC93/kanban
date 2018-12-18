@@ -4,7 +4,24 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const defaultKanban = [{
+    name: 'To Do',
+    cards: ['Do something!', 'Buy Milk'],
+    color: '#2A92BF',
+  },
+  {
+    name: 'Working',
+    cards: ['Build Kanban', 'Eat Sandwich'],
+    color: '#F4CE46'
+  },
+  {
+    name: 'Working',
+    cards: ['9 Weeks of Curriculum', 'Order Lunch'],
+    color: '#00B961'
+  }
+];
+
+ReactDOM.render(<App columns={defaultKanban} />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
