@@ -15,7 +15,7 @@ const defaultKanban = [{
     color: '#F4CE46'
   },
   {
-    name: 'Working',
+    name: 'Done',
     cards: ['9 Weeks of Curriculum', 'Order Lunch'],
     color: '#00B961'
   }
