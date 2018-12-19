@@ -10,7 +10,9 @@ export default class AddCard extends Component {
   render() {
     return (
       <div onClick={ () => this.addCard() } className='card addCard'>
+        <p></p>
         <p>+Add a Card</p>
+        <p></p>
       </div>
     )
   }
