@@ -24,7 +24,7 @@ export default class Card extends Component {
     if (dir === 'Left' && this.props.leftArrow) {
         return (
           <p 
-            className='arrow' 
+            className='arrow real' 
             onClick={ () => this.handleArrowClick(dir) }
           >
             {"<"}
@@ -33,7 +33,7 @@ export default class Card extends Component {
     } else if (dir === 'Right' && this.props.rightArrow) {
         return (
           <p
-            className='arrow'
+            className='arrow real'
             onClick={ () => this.handleArrowClick(dir) }
           >
             {">"}
