@@ -12,12 +12,12 @@ const defaultKanban = [{
   {
     name: 'Working',
     cards: ['Build Kanban', 'Eat Sandwich'],
-    color: '#F4CE46'
+    color: '#F4CE46',
   },
   {
     name: 'Done',
     cards: ['9 Weeks of Curriculum', 'Order Lunch'],
-    color: '#00B961'
+    color: '#00B961',
   }
 ];
 
