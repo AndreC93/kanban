@@ -1,0 +1,9 @@
+.addColButton {
+  cursor: pointer;
+  grid-row: 3;
+  /* -ms-grid-column-align: center; */
+  min-height: 48px;
+  grid-column-start: span;
+  /* text-align: center; */
+  /* align-content: center; */
+}
